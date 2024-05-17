@@ -1,12 +1,13 @@
 Student ID: 201786483
 
-Background and Aim
+Background and Aim:
 I have found that in the UK, many shopping malls, supermarkets, banks and other public places have free wi-fi, and even trains have wi-fi, but the speed is not very good, so I am thinking that it may be due to too many users, so I want to study the relationship between population and wi-fi. And considering that more population may also lead to more crime, I want to combine these factors together to research.
 So, in this project I want to find the relationship with population, free wi-fi areas and crime data. I want to find in Leeds in 2021 that whether the places with more free-wi-fi have a larger population, and may have more crime happened in these places.
 In the project, I used four datasets: resident number, population density, the location of wi-fi data and crime data, and these four datasets are all about Leeds in 2021.
 The residents and population density dataset I downloaded from census 2021 dataset. (https://www.nomisweb.co.uk/sources/census_2021) 
 The wi-fi data came from Data Mill North (https://datamillnorth.org/) and including a CSV file and a JSON file 
 The crime data came from POLICE.UK (https://www.police.uk/pu/your-area/west-yorkshire-police/leeds-city?tab=CrimeMap) 
+Because wi-fi and crime data only have latitude and longitude, so I added them to ArcGIS Pro to count the number of wi-fi and crime in each LSOA cell, and then exported the data with LSOA field to  join with population census data.
 
 Non-spatial outputs: 
 Using graph and chart to explain the relationship between population density, wi-fi areas and crime.
